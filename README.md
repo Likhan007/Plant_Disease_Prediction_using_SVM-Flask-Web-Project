@@ -1,7 +1,14 @@
 
 # Plant Disease Prediction using SVM (A Flask Web Project)
 
-This is a Flask Web project to detect Plant diseases. I have implemented 9 types of Plant's Diseases here. Each Plant has several Disease classes. There's also an AI chatbot implemented here to help users get responses about any kind of diseases related querry.
+This is a Flask Web project to detect Plant diseases. I have implemented 9 types of Plant's Diseases here. Each Plant has several Disease classes. There's also an AI chatbot implemented here to help users get responses about any kind of diseases related query.
+
+## Screenshot
+
+![App Screenshot](https://raw.githubusercontent.com/Likhan007/Plant_Disease_Prediction_using_SVM-Flask-Web-Project/main/static/PageSS.png)
+
+![App Screenshot](https://raw.githubusercontent.com/Likhan007/Plant_Disease_Prediction_using_SVM-Flask-Web-Project/main/static/AccuracySS.png)
+
 
 # Dataset Collection
 
@@ -81,13 +88,6 @@ Start the server
 ```bash
   python app.py
 ```
-
-
-## Screenshot
-
-![App Screenshot](https://raw.githubusercontent.com/Likhan007/Plant_Disease_Prediction_using_SVM-Flask-Web-Project/main/static/PageSS.png)
-
-![App Screenshot](https://raw.githubusercontent.com/Likhan007/Plant_Disease_Prediction_using_SVM-Flask-Web-Project/main/static/AccuracySS.png)
 
 
 ## License
