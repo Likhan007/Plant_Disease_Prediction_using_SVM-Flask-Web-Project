@@ -51,7 +51,6 @@ def index():
             pred_class = np.argmax(preds, axis=1)
 
             result = get_class(plant_type, pred_class[0])
-            print("diseases_details:", diseases_details)
 
             return render_template('index.html', prediction=result, diseases_details=diseases_details.get(plant_type, {}).get(result, {}))
 
